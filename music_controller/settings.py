@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'musicshare',
         'USER': 'hamzasherxdxd',
-        'PASSWORD': '',
+        'PASSWORD': 'hamzasherkhan123',
         'HOST': 'localhost',
         'PORT': '',
     }
