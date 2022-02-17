@@ -65,7 +65,8 @@ export default class Room extends Component {
             .then((response) => response.json())
             .then((data) => {
               console.log(data.url);
-              window.location.replace(data.url);
+              // window.location.replace(data.url);
+              this.props.history.push(data.url);
             });
         }
       });
