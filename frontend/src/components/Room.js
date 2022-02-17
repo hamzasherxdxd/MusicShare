@@ -64,6 +64,7 @@ export default class Room extends Component {
           fetch("/spotify/get-auth-url")
             .then((response) => response.json())
             .then((data) => {
+              console.log(data.url);
               window.location.replace(data.url);
             });
         }
