@@ -47,3 +47,4 @@ webencodings==0.5.1
 whitenoise==6.0.0
 zipp==3.7.0
 django-heroku==0.3.1
+dj-database-url 
